@@ -1,0 +1,38 @@
+.container{
+height: 400px;
+width: 450px;
+margin-top: 200px;
+margin-left: 500px;
+background: coral;
+text-align: center;
+border-radius: 20px;
+}
+
+input[type=text], input[type=password] {
+    background-color:white;
+
+}
+
+.bgicon{
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    position: relative;
+    
+}
+.tri{
+    color: white;
+    background-color:green;
+    margin: 200Px;
+    border-radius: 20px;
+    
+}
+.tri:hover{
+    background-color:black;
+    color:blue;
+}
+/*.bg{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}*/

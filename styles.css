@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.home{
+    background: url(back.jpg) no-repeat;
+
+    background-size:100% 100%;
+   
+    padding: 180px 0px;
+}
+.img-fluid{
+   width: 420px;
+}
+.imge-fulid{
+    width: 90%;
+    border-radius: 50px;
+ 
+    }
+    hr{
+        width: 100px;
+        border-width: 5px;
+        background-color: brown;
+        margin:auto;
+        margin-bottom: 80px;
+        
+    }
+    .contact{
+        background-color: pink;
+        background-size:100% 100%
+    }

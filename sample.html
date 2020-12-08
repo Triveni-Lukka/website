@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sample Login Page</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <p id="demo1"></p>
+       <script>
+           y=10;
+           
+           console.log(y);
+           var y;
+           var ttt={
+               firstname:'triveni',
+               lastname:'lukka',
+               designation:'sd',
+               fullname:function sss(){
+                   return this.firstname +""+ this.designation
+               }
+           }
+           document.getElementById("demo1").innerHTML=ttt.fullname();
+       </script>
+                    <div id="error_msg"></div>
+
+        <form id="details_form" onsubmit="return formvalidate()" >
+            <div class="container">
+            <h2>Login Page</h2>
+            <div class="bg">
+        <img src="icon.png" class="bgicon">
+
+        </div>
+        <label>First Name:</label>
+        <input type="text" id="fname" name="fname" placeholder="First Name"><br><br>
+        <label>Last Name:</label>
+        <input type="text" id="lname" name="lname"  placeholder="Last Name"><br><br>
+        <label>Email:</label>
+        <input type="text" id="email" name="email"  placeholder="Email"><br><br>
+        <label>Password:</label>
+
+        <input type="password" id="pwd" name="pwd"  placeholder="password"><br><br>
+        <button type="submit">Submit</button>
+    </div>
+</form>
+<div id="demo">Hi triiveni</div>
+<button type="button" onclick="triveni()" class="tri">click here</button>
+    </body>
+</html>
